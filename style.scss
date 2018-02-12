@@ -1,0 +1,42 @@
+.wire{
+	border:1px solid black;
+	height:45vh;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:15px;
+	position:relative;
+}
+.panel-image{
+	width:100%;
+	height:100%;
+	z-poition:1;
+}
+.panel-text{
+	position:absolute;
+	z-index:2;
+	font-family:Bangers;
+}
+p{
+	z-index:2;
+	font-family:Happy Monkeys
+}
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 36px solid transparent;
+	border-top-color: #00aabb;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -18px;
+	margin-bottom: -36px;
+}
